@@ -1,4 +1,4 @@
-[Back to Spring Core] (README.md)
+[Back to Spring Core](README.md)
 
 ## Initializing collection
 
