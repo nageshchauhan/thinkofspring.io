@@ -1,6 +1,6 @@
 [Back to Spring](../README.md)
 
-Spring Core
+##Spring Core
 
 1. [Introduction](1_introduction.md)
 2. [Spring IoC Container](2_spring_ioc_container.md)
@@ -10,3 +10,6 @@ Spring Core
 6. [Inner beans and Alias](6_inner_bean_and_alias.md)
 7. [Initializing collection](7_initializing_collection.md)
 8. [Bean Autowiring](8_bean_autowiring.md)
+
+<br><br>
+[Back to thinkofspring Home](../README.md)

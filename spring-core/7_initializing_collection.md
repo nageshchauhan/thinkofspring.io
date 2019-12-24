@@ -2,8 +2,9 @@
 
 ## Initializing collection
 
-Java provides mainly three types of collection ie List, Set and Map. Spring supports all these types of collections.
-Suppose a class contains collection type of variable, so how can define collection type to mapped into provided variable.
+Java provides mainly three types of collection ie List, Set and Map. Spring supports all these types of collection.
+
+Suppose a class contains collection type of variable, so how can we define collection type to mapped into provided variable.
 
 ### Defining List in xml
 
@@ -32,7 +33,7 @@ public class Triangle{
 }
 ```
 
-The way to define List in xml is as follows:
+The way to define **List** in xml is as follows:
 
 ```xml
 <bean id="triangle" class="com.tos.bean.Triangle">
@@ -108,7 +109,7 @@ public class Triangle{
 }
 ```
 
-The way to define Set in xml is as follows:
+The way to define **Set** in xml is as follows:
 
 ```xml
 <bean id="triangle" class="com.tos.bean.Triangle">
@@ -188,7 +189,7 @@ public class Triangle{
 }
 ```
 
-The way to define Map in xml is as follows:
+The way to define **Map** in xml is as follows:
 
 ```xml
 <bean id="triangle" class="com.tos.bean.Triangle">
@@ -233,3 +234,7 @@ Point A (0,0)
 Point B (90,4)
 Point C (60,10)
 ```
+
+<br>
+[<-- Back to Inner beans and Alias](6_inner_bean_and_alias.md) &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; [Next: Bean Autowiring -->](8_bean_autowiring.md)
+<br>

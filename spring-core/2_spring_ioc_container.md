@@ -3,7 +3,7 @@
 ## Spring IoC Container
 
 
-Spring container is collection of objects and the IoC container is responsible for instantiate, configure and assemble the objects. The IoC container gets information from XML file. Spring container is responsible for managing the life cycle of object.
+Spring container is collection of objects, and the IoC container is responsible for instantiate, configure and assemble the objects. The IoC container gets information from XML file. Spring container is responsible for managing the life cycle of object.
 
 In our application we can create object manually and can be created through Spring IoC container. But the difference in creating object manually and through spring container is that, lifecycle of manually created objects are maintained by developer whereas lifecycle of spring container created objects are maintained by spring itself.<br><br>
 
@@ -65,7 +65,7 @@ Output:
 Triangle drawn
 ```
 
-In the above example, we have used `XmlBeanFactory`  representation of `BeanFactory`. It reads the configuration from specified file resource. Beans namespace is used here, is to support bean related tags. In xml file, we have declared a bean with id as triangle and the class name with using fully qualified name. So whenever in our application, if we request for bean triangle then Spring container will look for the configuration in the xml file and provide an object as per the specified configuration.
+In the above example, we have used `XmlBeanFactory`  representation of `BeanFactory`. It reads the configuration from specified file resource. Beans namespace is used here (in DrawingApp.xml file), is to support bean related tags. In xml file, we have declared a bean with id as triangle and the class name with using fully qualified name. So whenever in our application, if we request for bean triangle then Spring container will look for the configuration in the xml file and provide an object as per the specified configuration.
 
 If we request a bean by using spring container then the lifecycle of such bean is maintained by Spring factory itself. The same bean we can manually create but such bean's lifecycle needs to be maintained manually by the programmer.
 
@@ -83,3 +83,6 @@ myTriangle.draw();
 
 Here, two objects of triangle class present. The one provided by spring factory and another is created by programmer. Both will work as same in functionality wise, but `triangle` object is maintained by spring factory and `myTriangle` has to be maintained by programmer.
 
+<br>
+[<-- Back to Introduction](1_introduction.md) &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; [Next: ApplicationContext and Property initialization -->](3_app_context_and_prop_init.md)
+<br>

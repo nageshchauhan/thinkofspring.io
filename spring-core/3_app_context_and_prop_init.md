@@ -92,9 +92,9 @@ The changes which we need to perform in xml configuration is like this:
 </bean>
 ```
 
-Here we have introduced another tag called property which has to attribute. The name attribute has the name of the variable declared in Triangle class, whereas the value attribute provide value for it.
+Here we have introduced another tag called property which has two attribute. The name attribute has the name of the variable declared in Triangle class, whereas the value attribute provides value for it.
 
-So wherever we try to get a bean of type Triangle, it will instantiate triangle object and set the type value with specified in xml config and give back to requester.
+So whenever we try to get a bean of type Triangle, it will instantiate triangle object and set the type value with specified in xml config and give back to requester.
 
 **Note:** Here the xml file provide value to the `type` variable by using setter of that field ie to provide value for an object through setter we have to use property tag in bean definition.
 
@@ -105,3 +105,7 @@ Equilateral Triangle drawn
 ```
 
 **Note:** We can set any number of property through xml configuration.
+
+<br>
+[<-- Back to Spring IoC Container](2_spring_ioc_container.md) &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; [Next: Constructor injection -->](4_constructor_injection.md)
+<br>

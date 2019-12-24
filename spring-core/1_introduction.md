@@ -4,10 +4,10 @@
 ## Introduction
 
 #### What is spring framework?<br>
-It is a collection of frameworks put into one. Spring framework is popular for dependency injection.
+It is a collection of frameworks put into one. Spring framework is famous for dependency injection.
 
 #### What is Inversion of Control (IoC)?<br>
-Inversion of Control is a principal in software engineering by which the control of object is transferred to container or framework.
+Inversion of Control is a principal in software engineering by which the control of the object is transferred to a container or framework.
 
 #### Advantages of IoC
 1. Decoupling the execution of a task from its implementation.
@@ -43,3 +43,7 @@ public class Store{
     }
 }
 ```
+
+<br>
+[<-- Back to Spring Core](README.md) &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; [Next: Spring IoC Container -->](2_spring_ioc_container.md)
+<br>

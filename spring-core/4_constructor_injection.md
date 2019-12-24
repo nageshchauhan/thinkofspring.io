@@ -31,7 +31,7 @@ public class Triangle{
 }
 ```
 
-Here, we have created constructor with parameter type as String. The getter of type field and constructor contains syso statement, which will tell us which line got executed during initialization of triangle class.
+Here, we have created constructor with parameter type as String. The setter of type field and constructor contains syso statement, which will tell us which line got executed during initialization of triangle class.
 
 In the xml file, instead of using property tag of bean, we will use constructor-arg tag.
 
@@ -130,7 +130,7 @@ When we get this bean, then spring will try to search for constructor with int a
 Equilateral Triangle drawn of height 20
 ```
 
-**Note:** For primitive type, its name is sufficient whereas for non-primitive type we have to provide fully qualified name.
+**Note:** For primitive type, its name is sufficient in type attribute whereas for non-primitive type we have to provide fully qualified name.
 
 
 Suppose the xml configuration is same as above and the Triangle class we have added one more constructor with String and int type as shown below:
@@ -159,7 +159,7 @@ public class Triangle{
 }
 ```
 
-Here two constructors are present, if we try to get triangle bean as per above configuration in xml then which constructor will get called ?
+Here two constructors are present, if we try to get triangle bean as per above configuration in xml then which constructor will get called ? <br>
 And the answer is first constructor, because spring will search for constructor which accept int and String type argument irrespective of parameters order. The execution will start from top so first constructor will be eligible. The output would be:
 
 ```java
@@ -184,3 +184,7 @@ int,string constructor called
 Equilateral Triangle drawn of height 20
 ```
 **Note:** The index number start from 0.
+
+<br>
+[<-- Back to ApplicationContext and Property initialization](3_app_context_and_prop_init.md) &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; [Next: Injecting Object -->](5_injecting_object.md)
+<br>

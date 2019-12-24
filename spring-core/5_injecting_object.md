@@ -71,7 +71,7 @@ public class Triangle{
 }
 ```
 
-Here, to get triangle bean, we need to provide value for all points member variable otherwise we will get null value. So what we can do is, define all three point separately as bean in xml as follows:
+Here, to get triangle bean, we need to provide value for all points member variable otherwise we will get null value. So what we can do is, define all three point separately as a bean in xml as follows:
 
 ```xml
 <bean id="pointA" class="com.tos.bean.Point">
@@ -117,3 +117,7 @@ Point C (60,10)
 ```
 
 **Note:** Here we have nested beans only one level, similarly we can nest bean in any number of level.
+
+<br>
+[<-- Back to Constructor injection](4_constructor_injection.md) &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; [Next: Inner beans and Alias -->](6_inner_bean_and_alias.md)
+<br>

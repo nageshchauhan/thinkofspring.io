@@ -5,7 +5,7 @@
 As we know Spring only support method execution join points for spring beans. So followings are the pointcut expression which are matching the execution of method on Spring beans. A pointcut declaration has four parts:
 
 1. Matching method signature pattern
-2. Matching type signature patter
+2. Matching type signature pattern
 3. Matching bean name pattern
 4. Combining pointcut expression
 
